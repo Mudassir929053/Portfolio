@@ -61,10 +61,10 @@ body{
     height: auto;
     overflow-x: hidden;
     width: 100%;
-    background: #171717;
+    background: #060606;
 }
 #header{
-    background:#171717;
+    background:#060606;
     height: 100vh;
     width: 100%;;
     overflow: hidden;

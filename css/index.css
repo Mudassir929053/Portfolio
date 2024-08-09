@@ -1368,6 +1368,7 @@ For devices with smaller width like mobile phone
         font-size: 40px;
     }
     .contact{
+        /* display: none; */
            width: 100%;
         left: 0;
         bottom: 0;
@@ -1856,7 +1857,16 @@ for tabs and large phones
         text-align: center;
     }
     .contact{
-        display: none;
+        /* display: none; */
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        padding: 10px;
+        height: 1600px;
+        display: flex;
+        flex-direction: row;
+        padding-right:180px;
     }
     #breaker{
         height: 50vh;

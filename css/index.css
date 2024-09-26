@@ -81,7 +81,7 @@ body{
     background-size: cover;
     background-position: 50% 50%;
     display: block;
-    z-index: 100000;
+    z-index: 1;
 }
 #navigation-content{
     height: 100vh;

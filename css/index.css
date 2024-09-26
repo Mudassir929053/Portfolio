@@ -311,8 +311,7 @@ body{
 }
 .social-media{
     color: white;
-    width:  21px;
-    ;
+    width:  30px;
     opacity: .6;
     margin: 8px;
     transition: all .4s ease;
@@ -520,11 +519,11 @@ body{
     padding-top: 40px;
 }
 .cv a button{
-    background: transparent;
+    /* background: transparent; */
     border:none;
-    padding: 15px 30px;
+    padding: 12px 20px;
     color: whitesmoke;
-    background: #c70039;
+    background: #c70039 !important;
     outline: none;
     font-size:20px;
     font-family: aileron;
@@ -1384,13 +1383,21 @@ For devices with smaller width like mobile phone
         height: auto;
         width: 0%;   
     }
+    .header-image img{
+        height: 100vh;
+        /* float: right; */
+        position: absolute;
+        top: -4%;
+        left: -12%;
+    }
     .social-media-links{
         width: 100%;
         left: 0;
         bottom: 0;
         position: absolute;
-        padding: 10px;
-        height: auto;
+        padding-left: 70px;
+        /* padding: 10px; */
+        height: 29vh;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1844,8 +1851,9 @@ for tabs and large phones
         left: 0;
         bottom: 0;
         position: absolute;
-        padding: 10px;
-        height: auto;
+        /* padding: 10px;*/
+        padding-left: 70px;
+        height: 29vh;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -2320,9 +2328,10 @@ for tabs and large phones
         font-weight: 200;
     }
     .cv a button{
-        background: transparent;
+        /* background: transparent; */
+    background: #c70039 !important;
         border:none;
-        padding: 25px 35px;
+        padding: 15px 20px;
         color: whitesmoke;
         outline: none;
         font-size:30px;

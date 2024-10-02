@@ -1402,7 +1402,7 @@ For devices with smaller width like mobile phone
         bottom: 0;
         position: absolute;
         padding: 10px;
-        height: 1600px;
+        height: 172%;
         display: flex;
         flex-direction: row;
         padding-right:180px;
@@ -1900,7 +1900,7 @@ for tabs and large phones
         bottom: 0;
         position: absolute;
         padding: 10px;
-        height: 1600px;
+        height: 172%;
         display: flex;
         flex-direction: row;
         padding-right:180px;
